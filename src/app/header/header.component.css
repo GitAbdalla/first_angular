@@ -1,20 +1,32 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: white;
-
-}
-.header{
-    display: flex;
-    justify-content:space-between;
+.big_header {
 }
 
-.nav{
-    display: flex;
-    gap: 50px;
+.header {
+  padding-top: 20px;
+  background-color: 00c6a9;
+  height: 5rem;
 }
-a{
-    text-decoration: none;
-    color: black;
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav h1{
+    padding-left: 50px;
+    color: white;
+}
+.nav .links {
+  padding-right: 50px;
+  display: flex;
+  gap: 50px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+a:hover {
+  color: lightskyblue;
 }
