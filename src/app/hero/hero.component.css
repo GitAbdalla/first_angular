@@ -1,0 +1,35 @@
+.big {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    padding-top: 5  0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+p {
+    color: rgb(160, 156, 156);
+}
+
+span {
+    color: 00c6a9;
+}
+
+button {
+    background-color: black;
+    color: white;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+img {}
