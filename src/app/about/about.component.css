@@ -1,0 +1,40 @@
+.about-section {
+    padding: 60px 0;
+    
+  }
+  
+  .about-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .about-container img {
+    width: 40%;
+    border-radius: 10px;
+  }
+  
+  .about-text h2 {
+    font-size: 40px;
+  }
+  
+  .about-text p {
+    color: #666;
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .about-text span {
+    color: #00c6a9;
+  }
+
+  button {
+    background-color: black;
+    color: white;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 5px;
+    font-size: 15px;
+}
